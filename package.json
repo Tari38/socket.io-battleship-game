@@ -4,8 +4,8 @@
   "description": "a basic socket.io game",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "dependencies": {
     "express": "^4.17.3",
     "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
   }
 }
