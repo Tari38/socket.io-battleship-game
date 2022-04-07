@@ -1,0 +1,30 @@
+{
+  "name": "socket.io-battleship-game",
+  "version": "1.0.0",
+  "description": "a basic socket.io game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tari38/socket.io-battleship-game.git"
+  },
+  "keywords": [
+    "socket",
+    "io",
+    "battleship",
+    "game"
+  ],
+  "author": "Samantha Dorrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tari38/socket.io-battleship-game/issues"
+  },
+  "homepage": "https://github.com/Tari38/socket.io-battleship-game#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
